@@ -1,5 +1,4 @@
 export default function Banner(props) {
-    export default function Badge(props) {
     const { label } = props;
     const cssClasses = props.className || null;
     const cssId = props.elementId || null;
@@ -18,5 +17,4 @@ export default function Banner(props) {
             {label}
         </div>
     );
-}
 }
