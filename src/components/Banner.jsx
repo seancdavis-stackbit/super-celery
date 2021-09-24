@@ -1,5 +1,5 @@
 export default function Banner(props) {
-    const { label } = props;
+    const { headline } = props;
     const cssClasses = props.className || null;
     const cssId = props.elementId || null;
     const annotationPrefix = props.annotationPrefix || '';
